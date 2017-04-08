@@ -52,7 +52,7 @@
     [self.starView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.and.right.equalTo(weakSelf.view);
         make.top.equalTo(weakSelf.view.mas_top).offset(0);
-        make.height.equalTo(@(65));
+        make.height.equalTo(@(70));
     }];
     [self.valueLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.and.right.equalTo(weakSelf.view);
@@ -67,7 +67,7 @@
     [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.and.right.equalTo(weakSelf.view);
         make.top.equalTo(weakSelf.textField.mas_bottom).offset(30);
-        make.height.equalTo(@40);
+        make.height.equalTo(@100);
     }];
 }
 - (void)clickBtn:(UIButton *)btn

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21DD214D319EFE193396B186 /* libPods-ZJFCommentStarViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1D26DE483DA47805ACBABA /* libPods-ZJFCommentStarViewTests.a */; };
+		40BA27C24E5F83B7598C9391 /* libPods-ZJFCommentStarView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D823EB333175752FF8FE5CD8 /* libPods-ZJFCommentStarView.a */; };
 		8AD9AA5D1E9870C100AC415B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA5C1E9870C100AC415B /* main.m */; };
 		8AD9AA601E9870C100AC415B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA5F1E9870C100AC415B /* AppDelegate.m */; };
 		8AD9AA631E9870C100AC415B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA621E9870C100AC415B /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		8AD9AA6B1E9870C100AC415B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9AA691E9870C100AC415B /* LaunchScreen.storyboard */; };
 		8AD9AA761E9870C100AC415B /* ZJFCommentStarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA751E9870C100AC415B /* ZJFCommentStarViewTests.m */; };
 		8AD9AA811E9870C100AC415B /* ZJFCommentStarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA801E9870C100AC415B /* ZJFCommentStarViewUITests.m */; };
+		8AD9AA901E98711700AC415B /* GGSCoachStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA8F1E98711700AC415B /* GGSCoachStarView.m */; };
+		8AD9AA941E98716600AC415B /* ZJFCommentStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9AA931E98716600AC415B /* ZJFCommentStarView.m */; };
+		EA801E9B89F53C746F4057CD /* libPods-ZJFCommentStarViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0939AB6CC89D19C15685A18D /* libPods-ZJFCommentStarViewUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E595F11AAD78CEC62B3752 /* Pods-ZJFCommentStarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCommentStarView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCommentStarView/Pods-ZJFCommentStarView.debug.xcconfig"; sourceTree = "<group>"; };
+		0939AB6CC89D19C15685A18D /* libPods-ZJFCommentStarViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFCommentStarViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512B18F4A7D9339122D0FA88 /* Pods-ZJFCommentStarViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCommentStarViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCommentStarViewTests/Pods-ZJFCommentStarViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A8CD95D1E9873740094877D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8AD9AA581E9870C100AC415B /* ZJFCommentStarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJFCommentStarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD9AA5C1E9870C100AC415B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AD9AA5E1E9870C100AC415B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		8AD9AA7C1E9870C100AC415B /* ZJFCommentStarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJFCommentStarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD9AA801E9870C100AC415B /* ZJFCommentStarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJFCommentStarViewUITests.m; sourceTree = "<group>"; };
 		8AD9AA821E9870C100AC415B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD9AA8E1E98711700AC415B /* GGSCoachStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSCoachStarView.h; sourceTree = "<group>"; };
+		8AD9AA8F1E98711700AC415B /* GGSCoachStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSCoachStarView.m; sourceTree = "<group>"; };
+		8AD9AA921E98716600AC415B /* ZJFCommentStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFCommentStarView.h; sourceTree = "<group>"; };
+		8AD9AA931E98716600AC415B /* ZJFCommentStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFCommentStarView.m; sourceTree = "<group>"; };
+		B1A25985656D6848A12205F1 /* Pods-ZJFCommentStarViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCommentStarViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCommentStarViewTests/Pods-ZJFCommentStarViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1D26DE483DA47805ACBABA /* libPods-ZJFCommentStarViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFCommentStarViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D823EB333175752FF8FE5CD8 /* libPods-ZJFCommentStarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFCommentStarView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF14E49661B28755B2850E13 /* Pods-ZJFCommentStarViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCommentStarViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCommentStarViewUITests/Pods-ZJFCommentStarViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E23D81BBFD4D447AA22940 /* Pods-ZJFCommentStarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCommentStarView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCommentStarView/Pods-ZJFCommentStarView.release.xcconfig"; sourceTree = "<group>"; };
+		FB7BC22519279160F724045A /* Pods-ZJFCommentStarViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCommentStarViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCommentStarViewUITests/Pods-ZJFCommentStarViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BA27C24E5F83B7598C9391 /* libPods-ZJFCommentStarView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DD214D319EFE193396B186 /* libPods-ZJFCommentStarViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +93,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA801E9B89F53C746F4057CD /* libPods-ZJFCommentStarViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		761C288E231955A73F3FB97C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D823EB333175752FF8FE5CD8 /* libPods-ZJFCommentStarView.a */,
+				BB1D26DE483DA47805ACBABA /* libPods-ZJFCommentStarViewTests.a */,
+				0939AB6CC89D19C15685A18D /* libPods-ZJFCommentStarViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8AD9AA4F1E9870C100AC415B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				8AD9AA741E9870C100AC415B /* ZJFCommentStarViewTests */,
 				8AD9AA7F1E9870C100AC415B /* ZJFCommentStarViewUITests */,
 				8AD9AA591E9870C100AC415B /* Products */,
+				A5C9E3D4B8B711E3DE8B7EEC /* Pods */,
+				761C288E231955A73F3FB97C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +135,19 @@
 		8AD9AA5A1E9870C100AC415B /* ZJFCommentStarView */ = {
 			isa = PBXGroup;
 			children = (
+				8AD9AA911E98712D00AC415B /* ZJFStarView */,
 				8AD9AA5E1E9870C100AC415B /* AppDelegate.h */,
 				8AD9AA5F1E9870C100AC415B /* AppDelegate.m */,
 				8AD9AA611E9870C100AC415B /* ViewController.h */,
 				8AD9AA621E9870C100AC415B /* ViewController.m */,
+				8AD9AA8E1E98711700AC415B /* GGSCoachStarView.h */,
+				8AD9AA8F1E98711700AC415B /* GGSCoachStarView.m */,
 				8AD9AA641E9870C100AC415B /* Main.storyboard */,
 				8AD9AA671E9870C100AC415B /* Assets.xcassets */,
 				8AD9AA691E9870C100AC415B /* LaunchScreen.storyboard */,
 				8AD9AA6C1E9870C100AC415B /* Info.plist */,
 				8AD9AA5B1E9870C100AC415B /* Supporting Files */,
+				8A8CD95D1E9873740094877D /* PrefixHeader.pch */,
 			);
 			path = ZJFCommentStarView;
 			sourceTree = "<group>";
@@ -140,6 +178,28 @@
 			path = ZJFCommentStarViewUITests;
 			sourceTree = "<group>";
 		};
+		8AD9AA911E98712D00AC415B /* ZJFStarView */ = {
+			isa = PBXGroup;
+			children = (
+				8AD9AA921E98716600AC415B /* ZJFCommentStarView.h */,
+				8AD9AA931E98716600AC415B /* ZJFCommentStarView.m */,
+			);
+			name = ZJFStarView;
+			sourceTree = "<group>";
+		};
+		A5C9E3D4B8B711E3DE8B7EEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02E595F11AAD78CEC62B3752 /* Pods-ZJFCommentStarView.debug.xcconfig */,
+				F7E23D81BBFD4D447AA22940 /* Pods-ZJFCommentStarView.release.xcconfig */,
+				B1A25985656D6848A12205F1 /* Pods-ZJFCommentStarViewTests.debug.xcconfig */,
+				512B18F4A7D9339122D0FA88 /* Pods-ZJFCommentStarViewTests.release.xcconfig */,
+				DF14E49661B28755B2850E13 /* Pods-ZJFCommentStarViewUITests.debug.xcconfig */,
+				FB7BC22519279160F724045A /* Pods-ZJFCommentStarViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD9AA851E9870C100AC415B /* Build configuration list for PBXNativeTarget "ZJFCommentStarView" */;
 			buildPhases = (
+				FE3BBB216481C3408ED3B3F5 /* [CP] Check Pods Manifest.lock */,
 				8AD9AA541E9870C100AC415B /* Sources */,
 				8AD9AA551E9870C100AC415B /* Frameworks */,
 				8AD9AA561E9870C100AC415B /* Resources */,
+				385DFAD1D66A44DA8D48F0BB /* [CP] Embed Pods Frameworks */,
+				A295E8BDF8901881E952233A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD9AA881E9870C100AC415B /* Build configuration list for PBXNativeTarget "ZJFCommentStarViewTests" */;
 			buildPhases = (
+				AEC48BE4F1A4040B7A55C8AC /* [CP] Check Pods Manifest.lock */,
 				8AD9AA6D1E9870C100AC415B /* Sources */,
 				8AD9AA6E1E9870C100AC415B /* Frameworks */,
 				8AD9AA6F1E9870C100AC415B /* Resources */,
+				0E980C53726DFA955F34EE05 /* [CP] Embed Pods Frameworks */,
+				E585BB4280DE9444E7C2871C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD9AA8B1E9870C100AC415B /* Build configuration list for PBXNativeTarget "ZJFCommentStarViewUITests" */;
 			buildPhases = (
+				92D647B72C8A33ADF7143262 /* [CP] Check Pods Manifest.lock */,
 				8AD9AA781E9870C100AC415B /* Sources */,
 				8AD9AA791E9870C100AC415B /* Frameworks */,
 				8AD9AA7A1E9870C100AC415B /* Resources */,
+				CE86F870C48B67E152179923 /* [CP] Embed Pods Frameworks */,
+				68C6DBE28D3EE42E53F44446 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,12 +337,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E980C53726DFA955F34EE05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCommentStarViewTests/Pods-ZJFCommentStarViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		385DFAD1D66A44DA8D48F0BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCommentStarView/Pods-ZJFCommentStarView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68C6DBE28D3EE42E53F44446 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCommentStarViewUITests/Pods-ZJFCommentStarViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D647B72C8A33ADF7143262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A295E8BDF8901881E952233A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCommentStarView/Pods-ZJFCommentStarView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC48BE4F1A4040B7A55C8AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE86F870C48B67E152179923 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCommentStarViewUITests/Pods-ZJFCommentStarViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E585BB4280DE9444E7C2871C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCommentStarViewTests/Pods-ZJFCommentStarViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3BBB216481C3408ED3B3F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AD9AA541E9870C100AC415B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8AD9AA631E9870C100AC415B /* ViewController.m in Sources */,
+				8AD9AA901E98711700AC415B /* GGSCoachStarView.m in Sources */,
+				8AD9AA941E98716600AC415B /* ZJFCommentStarView.m in Sources */,
 				8AD9AA601E9870C100AC415B /* AppDelegate.m in Sources */,
 				8AD9AA5D1E9870C100AC415B /* main.m in Sources */,
 			);
@@ -422,8 +631,10 @@
 		};
 		8AD9AA861E9870C100AC415B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E595F11AAD78CEC62B3752 /* Pods-ZJFCommentStarView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFCommentStarView/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFCommentStarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.apple.ZJFCommentStarView;
@@ -433,8 +644,10 @@
 		};
 		8AD9AA871E9870C100AC415B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E23D81BBFD4D447AA22940 /* Pods-ZJFCommentStarView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFCommentStarView/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFCommentStarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.apple.ZJFCommentStarView;
@@ -444,6 +657,7 @@
 		};
 		8AD9AA891E9870C100AC415B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A25985656D6848A12205F1 /* Pods-ZJFCommentStarViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZJFCommentStarViewTests/Info.plist;
@@ -456,6 +670,7 @@
 		};
 		8AD9AA8A1E9870C100AC415B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512B18F4A7D9339122D0FA88 /* Pods-ZJFCommentStarViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZJFCommentStarViewTests/Info.plist;
@@ -468,6 +683,7 @@
 		};
 		8AD9AA8C1E9870C100AC415B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF14E49661B28755B2850E13 /* Pods-ZJFCommentStarViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZJFCommentStarViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +695,7 @@
 		};
 		8AD9AA8D1E9870C100AC415B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7BC22519279160F724045A /* Pods-ZJFCommentStarViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZJFCommentStarViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +724,7 @@
 				8AD9AA871E9870C100AC415B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AD9AA881E9870C100AC415B /* Build configuration list for PBXNativeTarget "ZJFCommentStarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +733,7 @@
 				8AD9AA8A1E9870C100AC415B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AD9AA8B1E9870C100AC415B /* Build configuration list for PBXNativeTarget "ZJFCommentStarViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +742,7 @@
 				8AD9AA8D1E9870C100AC415B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
